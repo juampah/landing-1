@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    }
+.header{
+    height: 7em;
+    padding: 1.8em;
+    font-size: 2em;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+.header h1{
+    margin: 0px;
+    font-weight: 400;
+}
+.kittens{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(231, 239, 247);
+}
+.kittens td{
+    width: 50%;
+    padding: 2em;
+    margin: auto;
+}
+.kittens img{
+    width: 50%;
+    border: solid 1px #ddd;
+    border-radius: 10px 100px / 120px;
+}
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(236, 139, 212);
+    color: rgb(94, 6, 72);
+    text-align: center;
+    font-weight: 900;
+}
+a:link{
+    text-decoration: none;
+}
